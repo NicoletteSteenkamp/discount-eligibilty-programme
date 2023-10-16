@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<link rel="stylesheet" href="style.css">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Discount Eligibility Programme</title>
+</head>
+
+<body>
+  <h1>Discount Eligibilty check</h1>
+  <p> Complete the form below to check eligibility</p>
+  <form id="eligibility-form">
+    <label for=" enter your age">Your age</label>
+    <input type="number" id="age" required>
+    <br>
+    <label for="membership">Are you a member?</label>
+    <input type="checkbox" id="membership">
+    <br>
+    <button type="button" onclick="checkEligibility()">Check Eligibility</button>
+  </form>
+  <div id="result"></div>
+  <script src="Eligibility.js"></script>
+</body>
+
+</html>
